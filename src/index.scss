@@ -4,7 +4,15 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+    caret-color: transparent;
+    scroll-behavior: smooth;
     
+}
+:root{
+    --primary-bg: #F5F7F8;
+    --secondary-bg: #45474B;
+    --third-bg: #F4CE14;
+    --fourth-bg: #379777;
 }
 a{
     text-decoration: none;
@@ -16,4 +24,6 @@ a{
 body{
     font-family: poppins;
     overflow: hidden;
+    font-size: 15px;
+    transition: all .25s ease;
 }

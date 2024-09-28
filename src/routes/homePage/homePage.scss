@@ -1,54 +1,82 @@
-.homePage{
-    display: flex;
-    height: 100%;
-}
-.textContainer{ 
-    flex: 3; 
+@import "../../responsive.scss";
 
-    .wrapper{
-        padding-right: 100px;
-        height: 100%;
+.homePage {
+  display: flex;
+  height: 100%;
+
+  .textContainer {
+    flex: 3;
+    .wrapper {
+      padding-right: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      height: 100%;
+
+      @include lg {
+        padding-right: 50px;
+      }
+
+      @include md {
+        padding: 0;
+      }
+
+      @include sm {
+        justify-content: flex-start;
+      }
+
+      .title {
+        font-size: 54px;
+
+        @include lg {
+          font-size: 40px;
+        }
+      }
+
+      .boxes {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        gap: 20px;
+        justify-content: space-between;
 
-        .title{
-            font-size: 54px
-        }
-        p{
-            font-weight: 500;
-            color: #535252;
+        @include sm {
+          display: none;
         }
 
-        .boxes{
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        h1 {
+          font-size: 36px;
 
-            h1{
-                font-size: 40px;
-                font-weight: 400;
-            }
-            span{
-                font-size: 17px;
-            }
+          @include lg {
+            font-size: 32px;
+          }
         }
+
+        span {
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
     }
-}
-.imgContainer{ 
-    flex: 2; 
-    padding: 10px;
+  }
+
+  .imgContainer {
+    flex: 2;
     background-color: #fcf5f3;
     position: relative;
     display: flex;
     align-items: center;
 
-    img{
-        width: 110%;
-        position: absolute;
-        right: 0;
+    @include md {
+      display: none;
     }
+
+    img {
+      width: 115%;
+      position: absolute;
+      right: 0;
+
+      @include lg {
+        width: 105%;
+      }
+    }
+  }
 }

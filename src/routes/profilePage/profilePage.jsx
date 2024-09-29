@@ -10,8 +10,7 @@ function ProfilePage() {
         <div className="wrapper">
           <div className="title">
             <h1>User Information</h1>
-            <button>
-                <Link></Link>Update Profile</button>
+            <button>Update Profile</button>
           </div>
           <div className="info">
             <div className="userImage">

@@ -8,9 +8,9 @@ function HomePage() {
         <div className="wrapper">
           <h1 className="title">Building Foundations for the Future. </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vel
-            harum similique consequuntur neque incidunt dolores architecto
-            sapiente dignissimos iusto.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus ipsa commodi necessitatibus nihil, inventore quas totam
+            eaque dolorum.
           </p>
           <SearchBar />
           <div className="boxes">

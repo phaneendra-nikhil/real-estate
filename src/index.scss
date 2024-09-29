@@ -16,3 +16,7 @@ body {
   font-size: 15px;
   transition: all 0.25s ease;
 }
+::selection{
+  background-color: #30ab829a;
+  color: #fff;
+}

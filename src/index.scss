@@ -3,9 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  caret-color: transparent;
 }
-
 a {
   text-decoration: none;
   color: inherit;
@@ -15,8 +13,12 @@ body {
   overflow: hidden;
   font-size: 15px;
   transition: all 0.25s ease;
+  caret-color: transparent;
 }
 ::selection{
-  background-color: #30ab829a;
+  background-color: #36846ae9;
   color: #fff;
+}
+input{
+  caret-color: #000;
 }

@@ -127,5 +127,5 @@ Feel free to contribute to this project! Fork the repository, make your changes,
 ## 📧 Contact
 
 For any questions or feedback, feel free to reach out:
-- **Email**: youremail@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **Email**: tallapragadaphaneendranikhil@gmail.com
+- **GitHub**: [Phaneendra Nikhil](https://github.com/phaneendra-nikhil)

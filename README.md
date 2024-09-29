@@ -2,6 +2,8 @@
 
 **BrickBase** is a modern real estate platform built using the **MERN stack** (MongoDB, Express, React, and Node.js). This application provides users with innovative solutions for buying, selling, and managing properties, streamlining client interactions through a real-time chat interface.
 
+![logo](banner.png)
+
 ## 🌟 Key Features
 
 - **Property Listings**: Browse through detailed property listings with advanced filtering options based on location, price, and property type.
